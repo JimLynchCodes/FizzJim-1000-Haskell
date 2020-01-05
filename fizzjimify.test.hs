@@ -1,17 +1,17 @@
 import Test.Spec
 
 fizzjimifySpec :: Spec
-fizzbuzzifySpec = describe "fizzbuzzify" $ do
-  it "should correctly fizzbuzzify numbers" $
-    fizzbuzzify 0 `shouldBe` "0"
-    fizzbuzzify 1 `shouldBe` "1"
-    fizzbuzzify 2 `shouldBe` "2"
-    fizzbuzzify 3 `shouldBe` "fizz"
-    fizzbuzzify 4 `shouldBe` "4"
-    fizzbuzzify 5 `shouldBe` "jim"
-    fizzbuzzify 6 `shouldBe` "fizz"
-    fizzbuzzify 7 `shouldBe` "7"
+fizzjimifySpec = describe "fizzjimify" $ do
+  it "should correctly fizzjimify numbers" $
+    fizzjimify 0 `shouldBe` "0"
+    fizzjimify 1 `shouldBe` "1"
+    fizzjimify 2 `shouldBe` "2"
+    fizzjimify 3 `shouldBe` "fizz"
+    fizzjimify 4 `shouldBe` "4"
+    fizzjimify 5 `shouldBe` "jim"
+    fizzjimify 6 `shouldBe` "fizz"
+    fizzjimify 7 `shouldBe` "7"
     fizzbuzzif y 7 `shouldBe` "8"
-    fizzbuzzify 7 `shouldBe` "9"
-    fizzbuzzify 7 `shouldBe` "10"
-    fizzbuzzify 15 `shouldBe` "fizzjim"
+    fizzjimify 7 `shouldBe` "9"
+    fizzjimify 7 `shouldBe` "10"
+    fizzjimify 15 `shouldBe` "fizzjim"
